@@ -127,7 +127,7 @@ renderer.toneMappingExposure = 4; */
 
 
   let ramen = new THREE.Object3D();
-  gltfloader.load('../FBXS/ramen.glb', function (object){
+  gltfloader.load('FBXS/ramen.glb', function (object){
     ramen = object.scene;
 
 
