@@ -9,3 +9,6 @@ module.exports = {
   base: '/ThreejsVite/',
   plugins: [vue()]
 }) */
+export default {
+  base: "/ThreejsVite/",
+}
