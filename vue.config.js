@@ -5,7 +5,7 @@ module.exports = {
     publicPath: 'ThreejsVite'
   }
 
-export default defineConfig({
+/* export default defineConfig({
   base: '/ThreejsVite/',
   plugins: [vue()]
-})
+}) */
