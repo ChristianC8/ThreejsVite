@@ -5,3 +5,7 @@ export default defineConfig({
   base: '/ThreejsVite/',
   plugins: [vue()]
 }) 
+
+module.exports = {
+  publicPath: '/ThreejsVite/'
+}
