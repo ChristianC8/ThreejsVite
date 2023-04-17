@@ -27,4 +27,4 @@ up.addEventListener('click',()=>{
 
 const myTimeout = setTimeout(()=>{
     loading.style.display = "none";
-}, 16000);
+}, 17);
