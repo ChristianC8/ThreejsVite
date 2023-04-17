@@ -127,7 +127,7 @@ renderer.toneMappingExposure = 4; */
 
 
   let ramen = new THREE.Object3D();
-  gltfloader.load('/ramen.glb', function (object){
+  gltfloader.load('https://christianc8.github.io/ThreejsVite/ramen.glb', function (object){
     ramen = object.scene;
 
 
