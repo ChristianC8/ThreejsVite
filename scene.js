@@ -30,8 +30,8 @@ camera.position.z = 5;
 camera.position.x = 7;
 camera.position.y = 2;
 
-/* let grid = new THREE.GridHelper(100,10);
-scene.add(grid) */
+let grid = new THREE.GridHelper(100,10);
+scene.add(grid)
 
 
 
