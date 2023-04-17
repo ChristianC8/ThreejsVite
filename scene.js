@@ -15,7 +15,7 @@ const renderer = new THREE.WebGLRenderer({alpha: true});
 renderer.setSize(window.innerWidth, window.innerHeight);
 renderer.setClearColor(0x000000, 0)
 document.body.appendChild(renderer.domElement);
-
+/* 
 const geometry = new THREE.BoxGeometry();
 const material = new THREE.MeshStandardMaterial({color: 0x00ff00 });
 const cube = new THREE.Mesh(geometry, material);
@@ -24,14 +24,14 @@ cube.castShadow = true;
 cube.reciveShadow = true;
 cube.position.set(0,-0.5,5)
 
-
+ */
 
 camera.position.z = 5;
 camera.position.x = 7;
 camera.position.y = 2;
 
-let grid = new THREE.GridHelper(100,10);
-scene.add(grid)
+/* let grid = new THREE.GridHelper(100,10);
+scene.add(grid) */
 
 
 
@@ -127,7 +127,7 @@ renderer.toneMappingExposure = 4; */
 
 
   let ramen = new THREE.Object3D();
-  gltfloader.load('ramen.glb', function (object){
+  gltfloader.load('./FBXS/ramen.glb', function (object){
     ramen = object.scene;
 
 
