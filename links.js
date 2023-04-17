@@ -3,6 +3,7 @@ let github = document.getElementsByClassName("github");
 let linkedin = document.getElementsByClassName("linkedin");
 let proyectos =  document.getElementsByClassName("proyectos");
 let up = document.getElementById("up"); 
+let loading = document.getElementsByClassName('loading')[0]
 
 contacto[0].addEventListener('click',()=>{
     window.open('mailto:christiancastellano345@gmail.com');
@@ -23,3 +24,7 @@ up.addEventListener('click',()=>{
     window.scrollTo(0,0);
 
 })
+
+const myTimeout = setTimeout(()=>{
+    loading.style.display = "none";
+}, 16000);
